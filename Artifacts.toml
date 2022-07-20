@@ -1,140 +1,140 @@
 [[GDB]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "39db0e460e37e206b10849655e4d6e522abd2224"
+git-tree-sha1 = "2ecca9be2e11b214d43f0f4278959693d011222e"
 libc = "glibc"
 os = "linux"
 
     [[GDB.download]]
-    sha256 = "2f4bb68876cdbf03dfdb02cbee709491157a0c85e4d3227c3a087e4985656bf1"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "5e0067525137235c5c0b55d097f8d3a96447d7ce90bf61078a947b0fc2e9434f"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[GDB]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1c575be477e02d6d03dce9a9e17ff93d1ad07814"
+git-tree-sha1 = "9f1af0a9627643a28c2af43d898941dc65ba0bea"
 libc = "glibc"
 os = "linux"
 
     [[GDB.download]]
-    sha256 = "75c462b98c0c97fe1dd654729d3dcaf4b9232842ff8c5af336d34c1cfcdf85e6"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "a225d4b3aef42b86f6ed4e636c93e373515ad96b8fb3cc0c27f8210d49cc070f"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.aarch64-linux-gnu-cxx11.tar.gz"
 [[GDB]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "daba90b6ff04df7e86bc1591d4803a5aba6f3aa0"
+git-tree-sha1 = "558bb4e20c52b7851bef2a61ca9e1aeb4b722212"
 libc = "glibc"
 os = "linux"
 
     [[GDB.download]]
-    sha256 = "077ebe898721ef4133772c1491a7d3bf60334f49449377fb406d635cf4c488bd"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "15fe4c2d2382de4c1aa730aa453b17b965abf51442ca126ef1edcc63249900c6"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[GDB]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "bd343155a1f56dd629f9d7d662489beca7d44f45"
+git-tree-sha1 = "072abc2306238a491fa40304eff5a0797cc71479"
 libc = "glibc"
 os = "linux"
 
     [[GDB.download]]
-    sha256 = "1728461e83e791a3a75ec3b9409311036271cb3ba7c9f500df8bb03654745b82"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "f4d5a95cb209d6e01b6f8508dee53deea925573db756e9c1fd24d08c5d102922"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[GDB]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "49f840a921a838cd780e6ad64da52427bcc219b3"
+git-tree-sha1 = "9466e09c66ba9f929488ff3d109c0b28ed368833"
 libc = "musl"
 os = "linux"
 
     [[GDB.download]]
-    sha256 = "31340a2dda45e545d8518660fa9c4df0803a9e4d45b565ca3c7c6fd5dde2dce9"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "b71b93eb04f83aa7768ec9075fa8883775bbac3b1f3b3cba84cfb8b51cf2cc4c"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[GDB]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "27522d408fd679b3e0954a317f0fb7815846cb9e"
+git-tree-sha1 = "1801c2510fb2cd1dbb385e4c820f9378e5bee3e0"
 libc = "musl"
 os = "linux"
 
     [[GDB.download]]
-    sha256 = "f762d9015fa79731f493d8a3564cf6033cd62a071e2931a60fb33ec0eb5df788"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "40190b83e75c574677193d7b1162e6056d97a64bdc0d9b65d241e606bc81d80a"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[GDB]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8e5c66643e084c12f7cfbb0ad8bd07dabc770328"
+git-tree-sha1 = "f13072d8a17c03e6b6b05cf9acb5589d75f17d12"
 libc = "glibc"
 os = "linux"
 
     [[GDB.download]]
-    sha256 = "8e19c92761860850f79063849c8ca28597e774e68df092b9d3bb702543c25953"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "3bd8a29ddf16e7add58449913b4f49e8542af9e4f129fe67ade42d1af90ef7f0"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.i686-linux-gnu-cxx03.tar.gz"
 [[GDB]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ce130ea0e5d4bf2cd2b097f6755ce3bcae8b0e59"
+git-tree-sha1 = "44b7028263ee20cba8edb04cd5f754118daf6737"
 libc = "glibc"
 os = "linux"
 
     [[GDB.download]]
-    sha256 = "57e30ba47c59d679677bf5ae73a8944b247d9c90bd675c8921c20ce001b0d041"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "36e846a1b6cb378877c8fb095eea5a0b0016a79bab3e02ffe3112bb2137b1039"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.i686-linux-gnu-cxx11.tar.gz"
 [[GDB]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "7133778fa129ae8015f98e24282fc49db9385791"
+git-tree-sha1 = "468dde7d6607311c50341b739da089133eb19622"
 os = "windows"
 
     [[GDB.download]]
-    sha256 = "fd1a4104d6537fe31d905cbe6a78bc71d308b596fe8c0ce4bab01a9dd44e2535"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.i686-w64-mingw32-cxx03.tar.gz"
+    sha256 = "d35eea614c2cc621518fd9b596270f5f9c2724068651febb72a7aab1551be29b"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.i686-w64-mingw32-cxx03.tar.gz"
 [[GDB]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "14d5f114b949c89de0b6f2871bb4ed4aa2b3ac01"
+git-tree-sha1 = "6c2d6cf1f72aa0d6b0564398452aab0de78a1655"
 os = "windows"
 
     [[GDB.download]]
-    sha256 = "7562db522258abc9802a7ff4d2291ea0eee7be94b7d35e632c2336e3e031f684"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "54e8ca25505ce16a9f021866142c7bf522b12c1c444d15a6e21f406fc874c37d"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.i686-w64-mingw32-cxx11.tar.gz"
 [[GDB]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8ea676cee222a6d7ca476796c1b950521bc682da"
+git-tree-sha1 = "e758267d9b9d66c8e97b8dc5a4383c871ca4d7e7"
 libc = "glibc"
 os = "linux"
 
     [[GDB.download]]
-    sha256 = "a48b3478f3e4fc99fa973ede0b546f059855f25913a24cc7303084e3d89a48d8"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "218396dbd4bd3e8752f6c355e129f85c1aaf8d267a3d64342e8ca6641c47d38c"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[GDB]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "723ff26494de42b0a088c6c0a326085b7792c803"
+git-tree-sha1 = "9914dc273df5362d446fab6183a1c674185bb279"
 libc = "glibc"
 os = "linux"
 
     [[GDB.download]]
-    sha256 = "d40830f35279480225367ec05044c0eb8216319246deebe1a2bf9e809c7c9d5f"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "f8d27fe1a3845ef643728b35fe6ce1c6d5b42e631d07f47e79d268456505cb53"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.x86_64-linux-gnu-cxx11.tar.gz"
 [[GDB]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "53c72bbaa99f805b031faf991a8335460a10738d"
+git-tree-sha1 = "069af69f3ee5b24d9e8979351220b84e0ade95e0"
 os = "windows"
 
     [[GDB.download]]
-    sha256 = "ab894b2f75273bdc77ad120f567a0f370399e36ca1b4666d2955da17dc340e35"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "23ee36eb40b10cfe20357fad99f596e5c933a56d57127d5b561775e884463938"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.x86_64-w64-mingw32-cxx03.tar.gz"
 [[GDB]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d3e21812fb58f17f50781d4c86d2faa6da5ec66e"
+git-tree-sha1 = "70489260d32843acf2019d2022c40e4dccd8d586"
 os = "windows"
 
     [[GDB.download]]
-    sha256 = "7d8138e41cbd455feef503397de18abaa9be105d59db7a5bc97f2c22f8e1012f"
-    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v10.1.0+1/GDB.v10.1.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "e5961fe071d9c1217043c6b3172a59b4745c834aee7e41ff3b37adc4576e3f29"
+    url = "https://github.com/JuliaBinaryWrappers/GDB_jll.jl/releases/download/GDB-v12.1.0+0/GDB.v12.1.0.x86_64-w64-mingw32-cxx11.tar.gz"
