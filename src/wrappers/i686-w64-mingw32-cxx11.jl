@@ -4,11 +4,12 @@ export gdb, gdbserver
 using GMP_jll
 using Expat_jll
 using Python_jll
+using Zlib_jll
 JLLWrappers.@generate_wrapper_header("GDB")
 JLLWrappers.@declare_executable_product(gdb)
 JLLWrappers.@declare_executable_product(gdbserver)
 function __init__()
-    JLLWrappers.@generate_init_header(GMP_jll, Expat_jll, Python_jll)
+    JLLWrappers.@generate_init_header(GMP_jll, Expat_jll, Python_jll, Zlib_jll)
     JLLWrappers.@init_executable_product(
         gdb,
         "bin\\gdb.exe",
