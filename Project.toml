@@ -1,6 +1,6 @@
 name = "GDB_jll"
 uuid = "a8b33d9f-0f8b-5197-9986-f85cbaa50c6c"
-version = "12.1.0+1"
+version = "12.1.1+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -15,4 +15,9 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.0"
-Python_jll = "~3.8.8"
+Pkg = "1"
+GMP_jll = "6.2.0"
+Python_jll = "~3.10.14"
+Libdl = "1"
+Expat_jll = "2.2.10"
+Artifacts = "1"
